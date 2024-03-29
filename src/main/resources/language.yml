@@ -1,0 +1,27 @@
+messages:
+  bank:
+    take: "&fYou took away &c%amount%%currency_symbol%&f from &c%player%&f. Player now has &c%currency_amount%&f."
+    take-receiver: "&f%executor% took %amount%%currency_symbol% from your profile!"
+    take-not-enough: "&f%player% doesn't have %amount%%currency_symbol%. He has %currency_amount%%currency_symbol%."
+    give: "&fYou gave &c%amount%%currency_symbol%&f to &c%player%&f. Player now has &c%currency_amount%&f."
+    give-receiver: "&f%executor% gave you %amount%%currency_symbol% to your profile!"
+    set: "&fYou set &c%amount%%currency_symbol%&f to &c%player%&f."
+    set-receiver: "&f%executor% set %amount%%currency_symbol% to your profile!"
+  pay:
+    not-enough: "&fYou don't have %currency_amount%%currency_symbol%."
+    send: "&fYou sent %currency_amount%%currency_symbol% to %receiver%. Tax is %tax%%"
+    received: "&fYou received %currency_amount%%currency_symbol% from %sender%. Tax is %tax%%"
+  currency:
+    specific-currency-amount: "&fYou have exactly &b%currency_amount%%currency_symbol% %currency_name%&f."
+    specific-currency-amount-other: "&f%player% has exactly &b%currency_amount%%currency_symbol% %currency_name%&f."
+  help:
+    - ""
+    - "&8&m-------------------------------------------"
+    - " &f/balance - &7View all your currencies"
+    - " &f/balance <currency> - &7View your specified currency"
+    - " &f/balance <currency> <player> - &7View player's specified currency"
+    - " &f/bank give/set/take <player> <currency> <amount> - &fControl other's currencies &c&o(Admin only)"
+    - " &f/pay <player> <currency> <amount> - &7Send currency to others"
+    - " &f/bank reload - &7Reload the configurations &c&o(Admin only)"
+    - "&8&m-------------------------------------------"
+    - ""

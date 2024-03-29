@@ -1,0 +1,69 @@
+database: # requires server restart
+  type: yml #  use 'yml' or 'mysql'
+  host: ""
+  database: ""
+  username: ""
+  password: ""
+
+give-currency:
+  enabled: false
+  seconds: 60 #1 second = 60
+  amount: 5
+
+tax:
+  tax: 0.05 # 5% tax
+
+currencies:
+  euro:
+    name: "&beuro"
+    prefix: "€"
+  yen:
+    name: "&7yen"
+    prefix: "¥"
+  mobcoins:
+    name: "&6mobcoins"
+    prefix: "✪"
+  coins:
+    name: "&ecoins"
+    prefix: "✦"
+  stars:
+    name: "&1stars"
+    prefix: "✸"
+  credits:
+    name: "&3credits"
+    prefix: "✸"
+  dollars:
+    name: "&aDollars"
+    prefix: "☀"
+  rupees:
+    name: "&cRupees"
+    prefix: "❀"
+  pesos:
+    name: "&5Pesos"
+    prefix: "✾"
+  pounds:
+    name: "&bPounds"
+    prefix: "❄"
+  francs:
+    name: "&9Francs"
+    prefix: "❖"
+  won:
+    name: "&1Won"
+    prefix: "✻"
+  rubles:
+    name: "&7Rubles"
+    prefix: "✼"
+  rand:
+    name: "&8Rand"
+    prefix: "✿"
+  krona:
+    name: "&2Krona"
+    prefix: "₪"
+
+permissions:
+  balance: "gbank.balance"
+  bank:
+    set: "gbank.set"
+    give: "gbank.give"
+    take: "gbank.take"
+  pay: "gbank.pay"
