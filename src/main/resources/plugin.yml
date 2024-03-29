@@ -1,0 +1,4 @@
+name: GBank
+version: '${project.version}'
+main: com.x32pc.github.GBank
+api-version: '1.20'
